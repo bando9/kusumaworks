@@ -110,7 +110,7 @@ a{
 
 
 /* Logo and navigation menu */
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -147,6 +147,7 @@ nav ul li a {
     height: 2px;
     margin: 7px;
     background-color: #000;
+    transition: all .3s;
     z-index: 99;
 }
 
@@ -164,7 +165,6 @@ nav ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin-top: -150px;
 }
 
 .hero-name {
